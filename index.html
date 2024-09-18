@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download and sherable Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" id="resume">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="">Username:</label>
+                <input id="username" type="text" required> <br>
+                <label for="">Name:</label>
+                <input id="text" type="text" required> <br>
+                <label for="">Age:</label>
+                <input id="age1" type="number" required> <br>
+                <label for="">Phone:</label>
+                <input id="phone1" type="number" required> <br>
+                <label for="">Email:</label>
+                <input id="email" type="text" placeholder="abc@gmail.com"  required> <br>
+                <label for="">Exp:</label>
+                <input id="exper" type="text"  required> <br>
+            </fieldset>
+            <fieldset>
+                <legend>Education</legend>
+                <textarea name="text" rows="4" id="education"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Skill</legend>
+                <textarea name="skill" id="skill" rows="7" placeholder="Add Skill seprated by coma." ></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="">Address:</label>
+                <input id="address1" type="text" ><br>
+                <label for="">Home No:</label>
+                <input id="Home1" type="text" ><br>
+                
+            </fieldset>
+           
+            <button class="btn" >Generate Resume</button>
+            <div id="resume-genrate">
+                <div id="img-div"></div>
+
+
+              <!-- // Display Editable form -->
+
+                <div id="main">
+                    <div id="top">
+                        <h1>Resume</h1>
+                        <p><strong>Web Developer</strong></p>
+                    
+            
+            
+                    <div id="profile-text">
+                        <h1 class="headind-left">Personal Information</h1>
+                        <p class="information" contenteditable="true" ><strong id="name">Name:</strong></p>
+                        <p class="information" contenteditable="true" ><strong id="age">Age: </strong></p>
+                        <p class="information" contenteditable="true"><strong id="phone">Phone: </strong></p>
+                        <p class="information" contenteditable="true"><strong id="email1">Email: </strong></p>
+                        <p class="information" contenteditable="true" ><strong id="exp">Experience: </strong></p>
+                        
+                    </div>
+                </div>
+                <div id="education">
+                    <div id="education-text">
+                        <h1 class="headind-left">Education</h1>
+                        <p class="information" contenteditable="true" id="education1"></p>
+                    </div> 
+                </div>
+                <div id="Skills">
+                    <div id="exp-text">
+                        <div id="skills-info">
+                            <h1 class="headind-left">Skills</h1>
+            
+                            <ul>
+                                <li class="information" contenteditable="true" id="skill1"></li>
+                            </ul>
+            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="contact">
+                    <div id="contact-info">
+                        <h1 class="headind-left">Contact</h1>
+                        <h4 class="information" contenteditable="true">Home No:</h4>
+                        <p class="information" contenteditable="true" id="home"></p>
+                        <p class="information" contenteditable="true" id="address"></p>
+                        <p id="link"></p>
+                    </div>
+                    <button id="download" class="btn">Download as PDF</button> <br>
+                    <button id="sherable-link" class="btn">sharable link</button>
+
+                </div>
+        
+                <div >&#174; Made By Owais Qureshi</div>
+            </div>
+          
+            </div>
+            
+        </form>
+    </div>
+    <script src="main.js"></script>
+    
+
+ 
+</body>
+</html>

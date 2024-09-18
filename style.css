@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color:rgb(8, 161, 221);
+    height: 1000px;
+
+}
+
+.container{
+    background-color: white;
+    width: 800px;
+    height: auto;
+    margin: 49px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 3px 8px black;
+}
+ 
+textarea{
+    border: 1px groove rgb(8, 161, 221) ;
+    padding: 5px;
+}
+
+label , legend{
+    padding: 7px;
+}
+
+input{
+    width: 120px;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px groove rgb(8, 161, 221) ;
+
+}
+fieldset{
+    font-weight: bold;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    border: 2px groove rgb(8, 161, 221);
+    box-shadow: 2px 2px 3px rgb(26, 25, 25);
+}
+
+.upload-image{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(8, 161, 221);
+    box-shadow: 2px 2px 3px gray;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.imgbtn{
+    background-color:rgb(8, 161, 221) ;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+.lab{
+    display: block;
+    background-color:rgb(8, 161, 221) ;
+    color: white;
+}
+#upload{
+    display: none;
+}
+
+#img-defult{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(8, 161, 221) ;
+    color: white;
+    border-radius: 12px;
+    border: transparent;
+    box-shadow: 2px 2px 2px black;
+}
+#resume-genrate{
+    box-shadow: 2px 2px 2px gray;
+    line-height: 2;
+    border: 2px solid rgb(8, 161, 221);
+    width: 400px;
+    padding: 20px;
+}

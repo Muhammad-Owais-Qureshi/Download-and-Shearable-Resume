@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+body{
+    background-color:rgb(8, 161, 221); 
+
+}
+#main{
+    background-color: white;
+    max-width: 800px;
+    height: 1210px;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    
+}
+#top{
+    text-align: center;
+}
+
+#owais{
+    box-shadow: 1px 2px 4px black;
+    border: 5px groove rgb(8, 161, 221);
+    border-radius: 50%;
+    width: 100px;
+    height: 85px;
+    cursor: pointer;
+}
+
+.headind-left{
+    width: 250px;
+    box-shadow: 1px 2px 4px black;
+    background-color: rgb(44, 154, 197);
+    border-radius: 0 22px 22px 0;
+    color: white;
+    padding: 10px;
+}
+
+#profile-text{
+    text-align: start;
+    margin-top: 10px;
+    width:400px;
+}
+
+.information{
+    margin-top: 10px;
+    line-height: 17px;
+    padding: 5px;
+}
+
+#contact, #education, #Skills{
+    margin-top: 17px;
+}
+
+
+
+ul .information{
+    margin-left: 17px;
+}
+
+
+@media only screen and (max-width:425px) {
+    .footer{
+        width: 360px;
+        margin-bottom: 23px;
+
+    }
+    .headind-left{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:375px) {
+    .footer{
+        width: 300px;
+        margin-bottom: 23px;
+
+    }
+    .headind-left{
+        width: 300px;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width : 991px) {
+    .footer{
+        width: 700px;
+    }
+}
